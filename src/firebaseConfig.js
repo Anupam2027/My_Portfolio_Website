@@ -1,5 +1,10 @@
 import { initializeApp } from "firebase/app";
-import { getFirestore, collection, addDoc } from "firebase/firestore";
+import {
+  getFirestore,
+  collection,
+  addDoc,
+  Timestamp,
+} from "firebase/firestore";
 import {
   getAuth,
   GoogleAuthProvider,
@@ -31,4 +36,4 @@ const logout = () => {
   signOut(auth);
 };
 
-export { auth, db, signInWithGoogle, logout, collection, addDoc };
+export { auth, db, signInWithGoogle, logout, collection, addDoc, Timestamp };
