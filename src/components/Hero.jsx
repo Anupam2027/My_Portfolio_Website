@@ -28,7 +28,7 @@ const Hero = () => {
 
   return (
     <section
-      id="hero"
+      id="home"
       className="min-h-screen flex flex-col justify-center items-center text-center px-6 bg-gradient-to-b from-white via-blue-50 to-sky-100 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 text-gray-900 dark:text-white"
     >
       <motion.h1
