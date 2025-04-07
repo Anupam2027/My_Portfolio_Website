@@ -9,22 +9,22 @@ import { motion } from "framer-motion";
 
 const educationData = [
   {
-    degree: "Bachelor of Technology (B.Tech), Information Technology",
-    institution: "Dr. B.C. Roy Engineering College, Durgapur",
-    year: "2020 - 2024",
-    result: "CGPA: 8.65",
+    degree: "Bachelor of Technology (B.Tech) in Information Technology",
+    institution: "Techno Main Salt Lake",
+    year: "August 2022 – July 2025",
+    result: "CGPA: 7",
   },
   {
-    degree: "Class XII - CBSE",
-    institution: "DAV Public School, Bihar",
-    year: "2019 - 2020",
-    result: "Percentage: 76%",
+    degree: "Diploma in Computer Science and Technology",
+    institution: "Women’s Polytechnic College",
+    year: "August 2019 – July 2022",
+    result: "CGPA: 8.4",
   },
   {
-    degree: "Class X - CBSE",
-    institution: "DAV Public School, Bihar",
-    year: "2017 - 2018",
-    result: "Percentage: 10 CGPA",
+    degree: "10th Standard",
+    institution: "Alipore Takshal Vidyapith For Girls",
+    year: "January 2018 – March 2019",
+    result: "Percentage: 72.42%",
   },
 ];
 
