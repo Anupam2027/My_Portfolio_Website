@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import { Github, Linkedin, Twitter } from "lucide-react";
 
 const Hero = () => {
   const fullName = "Anupam Kumari Mishra";
@@ -68,6 +69,39 @@ const Hero = () => {
           className="px-6 py-3 bg-emerald-500 hover:bg-emerald-600 text-white rounded-full shadow-md transition-all duration-300"
         >
           Download Resume
+        </a>
+      </motion.div>
+
+      {/* Social Links */}
+      <motion.div
+        className="mt-6 flex gap-6 justify-center"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 1.2 }}
+      >
+        <a
+          href="https://github.com/Anupam2027"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-transform transform hover:scale-110"
+        >
+          <Github size={28} />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/anupam-mishra-136579216/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-transform transform hover:scale-110"
+        >
+          <Linkedin size={28} />
+        </a>
+        <a
+          href="https://x.com/Miss__anupam"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-transform transform hover:scale-110"
+        >
+          <Twitter size={28} />
         </a>
       </motion.div>
     </section>
