@@ -84,15 +84,7 @@ const Education = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-        >
-          <a
-            href="/Anupam_kumari_resume.pdf"
-            download
-            className="inline-flex items-center gap-2 px-6 py-2 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg shadow-md transition-transform duration-300 hover:scale-105"
-          >
-            <Download size={18} /> Download Resume
-          </a>
-        </motion.div>
+        ></motion.div>
       </div>
     </section>
   );
