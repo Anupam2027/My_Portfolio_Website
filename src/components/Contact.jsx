@@ -78,8 +78,8 @@ const Contact = () => {
           </button>
 
           {sent && (
-            <p className="text-green-500 mt-2 font-medium">
-              ✅ Message Sent Successfully!
+            <p className="text-green-500 font-medium mt-2">
+              Message sent successfully! 🚀
             </p>
           )}
         </form>

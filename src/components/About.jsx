@@ -7,6 +7,12 @@ import js from "../assets/skills/js.png";
 import react from "../assets/skills/react.png";
 import git from "../assets/skills/git.png";
 import c from "../assets/skills/c.png";
+import cp from "../assets/skills/cp.png";
+import github from "../assets/skills/Github.png";
+import firebase from "../assets/skills/firebase.png";
+import mysql from "../assets/skills/mysql.png";
+import tailwind from "../assets/skills/tailwind.png";
+import appwrite from "../assets/skills/appwrite.png";
 
 const skills = [
   { name: "HTML", icon: html },
@@ -15,6 +21,12 @@ const skills = [
   { name: "React", icon: react },
   { name: "C++", icon: c },
   { name: "Git", icon: git },
+  { name: "GitHub", icon: github },
+  { name: "C", icon: cp },
+  { name: "Firebase", icon: firebase },
+  { name: "Appwrite", icon: appwrite },
+  { name: "MySql", icon: mysql },
+  { name: "TailWind", icon: tailwind },
 ];
 
 const About = () => {
