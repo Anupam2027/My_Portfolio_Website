@@ -20,8 +20,8 @@ const projects = [
     image: project2,
     description: "A responsive blog app with Firebase auth and Firestore DB.",
     tags: ["React", "Tailwind", "Firebase"],
-    liveLink: "https://yourblogproject.com",
-    githubLink: "https://github.com/Anupam2027/blog-platform",
+    liveLink: "https://doblogging.vercel.app/",
+    githubLink: "https://github.com/Anupam2027/Blog_website",
   },
   {
     title: "AcadVault (Final Year Project)",
@@ -30,7 +30,7 @@ const projects = [
       "DigiLocker-like platform to manage academic records securely.",
     tags: ["Next.js", "MongoDB", "Node.js"],
     liveLink: "https://youracadvault.com",
-    githubLink: "https://github.com/Anupam2027/AcadVault",
+    githubLink: "https://github.com/souvikkar009/Final-Year-Project",
   },
 ];
 
