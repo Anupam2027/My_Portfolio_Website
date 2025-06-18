@@ -29,7 +29,6 @@ const projects = [
     description:
       "DigiLocker-like platform to manage academic records securely.",
     tags: ["Next.js", "MongoDB", "Node.js"],
-    liveLink: "https://youracadvault.com",
     githubLink: "https://github.com/souvikkar009/Final-Year-Project",
   },
 ];
